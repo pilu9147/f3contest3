@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    margin: 10px 10px;
+}
+
+.right a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 10px 10px;
+}
+
+.fbody {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid white;
+    margin: 10px 0px;
+    padding: 10px;
+    width: 700px;
+    color: white;
+}
+
+input:focus {
+    color: white;
+}
+
+#sign {
+    color: white;
+}
+
+#submit-btn {
+    margin: 10px;
+    padding: 10px 40px;
+}
